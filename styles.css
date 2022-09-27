@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding:  0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	background: url("./images/wallpaper.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.login_Form{
+	position: absolute;
+	background-color: #050505;
+	top: 50%;
+	left: 50%;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 450px;
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+}
+.signup_Form{
+
+	position: absolute;
+	background-color: #050505;
+	top: 80%;
+	left: 50%;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 975px;
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+}
+.login_Form input[type="text"], .signup_Form input[type="text"]{
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	background-color:darkgrey;	
+	border-color: darkslategrey;
+	border-width: 3px;
+	border-radius: 7.5px;
+	height: 25px;
+	width: 250px;
+	margin-top: 1rem;
+}
+
+.login_Form input[type="password"], .signup_Form input[type="password"]{
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	background-color:darkgrey;	
+	border-color: darkslategrey;
+	border-width: 3px;
+	border-radius: 7.5px;
+	height: 25px;
+	width: 250px;
+	margin-top: 1rem;
+}
+
+.login_Form input[type="submit"], .signup_Form input[type="submit"], .login_Button input[type="submit"]{
+	width: 280px;
+	padding: 1rem;
+	background-color: darkgrey;	
+	border-color: darkslategrey;
+	border-width: 3px;
+	border-radius: 7.5px;
+	margin-top: 1rem;
+	color: #696969;
+}
+
+.signup_Form input[type="email"]{
+	padding: 0.75rem;
+	margin-bottom: 1rem;
+	background-color:darkgrey;	
+	border-color: darkslategrey;
+	border-width: 3px;
+	border-radius: 7.5px;
+	height: 25px;
+	width: 250px;
+	margin-top: 1rem;
+}
+
+.text {
+	margin: 0;
+}
+
+.Sp00tify {
+	font-size: xx-large;
+	margin: 0rem;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.side_Panel {
+	position:relative;
+	height:100vh;
+	background-color:#080808;
+	width: 350px;
+	min-width:100px;
+	margin-left:0;
+
+}
